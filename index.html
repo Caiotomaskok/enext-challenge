@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MERLIN'S POTIONS</title>
+    <link rel="icon" href="../assets/potion-icon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,7 +33,11 @@
     </header>
     <nav class="navbar">
         <ul class="list-menu">
-            <li>Potions</li>
+            <li>Potions
+                <ul class="potions">
+                    <li>link</li>
+                </ul>
+            </li>
             <li>Ingredients</li>
             <li>Books</li>
             <li>Supplies</li>
@@ -40,15 +45,34 @@
             <li>Clearance</li>
         </ul>
         <ul class="login">
-            <li>sign in</li>
+            <li>Sign in</li>
             <span>or</span>
-            <li>sign out</li>
+            <li>Sign out</li>
         </ul>
         
     </nav>
-    <span>
+    <h1 class="title">Potions</h1>
+    <section class="main">
+        
+            <div class="products">
+                <div class="info">
+                <img src="./products/aging-potion.png" >
+                <span>Aging potion - <span class="price">R$29.99</span></span>
+                </div>
+                <div class="products">
+                    <div class="info">
+                    <img src="./products/aging-potion.png" >
+                        <span>Aging potion - <span class="price">R$29.99</span></span>
+                    </div>
+                    <div class="products">
+                        <div class="info">
+                        <img src="./products/aging-potion.png" >
+                            <span>Aging potion - <span class="price">R$29.99</span></span>
+                        </div>
 
-    </span>
+            </div>
+
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
